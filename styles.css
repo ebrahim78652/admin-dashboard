@@ -1,0 +1,95 @@
+/* general CSS that applies to several of the elements*/
+
+
+@font-face {
+    font-family: 'Roberto-Normal'; 
+    src: url("/designs/Roboto-Regular.ttf");
+    font-size: 1rem;
+}
+
+:root{
+    font-family: 'Roberto-Normal'; ;
+}
+
+ul{
+    list-style:none;
+}
+
+
+/* Dashboard  */
+.dashboard{
+    background-color: #1992D4 ;
+    color: white ;
+    font-weight: 600;
+}
+
+.dashboard li{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.dashboard .menu-secondary{
+    margin-top: 75px;
+}
+
+/* header  */
+
+.header{
+    background-color: pink;
+    display:grid;
+    grid-template-columns: repeat( 3, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+}
+
+.header .searchbar{
+    grid-column: 1/3 ;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #E2E8F0;
+}
+
+.header .profile-topright{
+    grid-column: 3/4;
+
+}
+
+.header .welcome{
+    grid-column: 1/2;
+    grid-row: 2/3;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header .action-buttons{
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+.header .searchbar-with-png{
+
+    display: flex;
+    
+}
+
+.header .icon{
+    width: 24px;
+    height:24px;
+    
+}
+
+.test-div{
+   
+    width:70px;
+    height: 70px;
+    background:url(/designs/Female-Avatar-2.svg);
+    background-repeat: no-repeat;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-position: center;
+   
+
+}
+
+
+
+
