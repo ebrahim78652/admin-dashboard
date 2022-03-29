@@ -3,7 +3,7 @@
 
 @font-face {
     font-family: 'Roberto-Normal'; 
-    src: url("/designs/Roboto-Regular.ttf");
+    src: url("./designs/Roboto-Regular.ttf");
     font-size: 1rem;
 }
 
@@ -239,8 +239,6 @@ ul{
     background-color: #E2E8F0;
     margin-left: 15px;
     margin-right: 15px;
-
-
 }
 
 
